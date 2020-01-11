@@ -237,8 +237,8 @@ vendor/lib/vendor.qti.gnss@3.0.so|463bbea7dbb4e8eaaa0b9141f9db01404158c5fb
 vendor/lib/vendor.qti.gnss@3.0-service.so|aed4f48ee569308fa58c1950d1a5962907f2e37b
 
 # Hotword enrollment
--priv-app/HotwordEnrollmentOKGoogleWCD9340/HotwordEnrollmentOKGoogleWCD9340.apk;PRESIGNED
--priv-app/HotwordEnrollmentXGoogleWCD9340/HotwordEnrollmentXGoogleWCD9340.apk;PRESIGNED
+-product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk;PRESIGNED
+-product/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON.apk;PRESIGNED
 
 # IR
 vendor/lib64/hw/consumerir.default.so|22621df28b47d9c7a381b500406858891a920840
