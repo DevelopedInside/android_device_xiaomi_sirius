@@ -32,3 +32,7 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 
 # Inherit from the proprietary stuffs
 -include vendor/xiaomi/sirius/BoardConfigVendor.mk
+
+# Vendor init
+TARGET_INIT_VENDOR_LIB := libinit_sirius
+TARGET_RECOVERY_DEVICE_MODULES := libinit_sirius
