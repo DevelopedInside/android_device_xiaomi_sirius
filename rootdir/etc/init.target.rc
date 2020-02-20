@@ -72,6 +72,9 @@ on post-fs
     setrlimit 8 67108864 67108864
     write /dev/ipa 1
 
+    # make the selinux kernel policy world-readable
+    chmod 0444 /sys/fs/selinux/policy
+
 service sec_nvm /vendor/bin/sec_nvm
     class core
     user system
