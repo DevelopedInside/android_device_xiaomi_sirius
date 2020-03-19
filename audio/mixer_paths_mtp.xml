@@ -1093,7 +1093,7 @@
     <path name="compress-offload-playback3 headphones-dsd">
     </path>
 
-     <path name="compress-offload-playback3 speaker-and-headphones">
+    <path name="compress-offload-playback3 speaker-and-headphones">
         <path name="compress-offload-playback3 headphones" />
         <path name="compress-offload-playback3 speaker" />
     </path>
