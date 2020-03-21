@@ -7,10 +7,17 @@
 $(call inherit-product, device/xiaomi/sirius/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/descendant/config/common_full_phone.mk)
+
+SUPPORTS_NATIVE_GOOGLE_CAMERA := NO
+SUPPORTS_GOOGLE_WALLS := NO
+SUPPORTS_GOOGLE_NEW_ASSISTANT := YES
+SUPPORTS_GOOGLE_ASSISTANT_EXTRA_RESOURCES := YES
+SUPPORTS_PIXEL_SETUP_OVERLAY := YES
+PIXEL_SETUP_OVERLAY_TYPE := PIXELONE
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_sirius
+PRODUCT_NAME := descendant_sirius
 PRODUCT_DEVICE := sirius
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := MI 8 SE
